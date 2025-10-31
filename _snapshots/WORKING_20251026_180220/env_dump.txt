@@ -1,0 +1,66 @@
+﻿
+Name                           Value                                                                                   
+----                           -----                                                                                   
+_OLD_VIRTUAL_PATH              C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPo...
+ADMIN_CHAT_ID                  921683990                                                                               
+ALLUSERSPROFILE                C:\ProgramData                                                                          
+APPDATA                        C:\Users\anybu\AppData\Roaming                                                          
+CommonProgramFiles             C:\Program Files\Common Files                                                           
+CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files                                                     
+CommonProgramW6432             C:\Program Files\Common Files                                                           
+COMPUTERNAME                   P15V                                                                                    
+ComSpec                        C:\WINDOWS\system32\cmd.exe                                                             
+DriverData                     C:\Windows\System32\Drivers\DriverData                                                  
+EFC_11116_1262719628           1                                                                                       
+EFC_11116_1592913036           1                                                                                       
+EFC_11116_2283032206           1                                                                                       
+EFC_11116_2775293581           1                                                                                       
+EFC_11116_3789132940           1                                                                                       
+FPS_BROWSER_APP_PROFILE_STRING Internet Explorer                                                                       
+FPS_BROWSER_USER_PROFILE_ST... Default                                                                                 
+HOMEDRIVE                      C:                                                                                      
+HOMEPATH                       \Users\anybu                                                                            
+INPUT_DEVICE_INDEX             1                                                                                       
+INPUT_SAMPLE_RATE              16000                                                                                   
+LOCALAPPDATA                   C:\Users\anybu\AppData\Local                                                            
+LOGONSERVER                    \\P15V                                                                                  
+NUMBER_OF_PROCESSORS           12                                                                                      
+OneDrive                       C:\Users\anybu\OneDrive                                                                 
+OPENAI_API_KEY                 sk-proj-qilmOeCStgoQylLTauT1n8EFmhChK8hx20Nw_Ubg_pGDvYMn6P0W6APL-AjYlNOuu-12JEdGQYT3B...
+OPENAI_LLM_MODEL_STRONG        gpt-4o                                                                                  
+OPENAI_STT_MODEL               whisper-1                                                                               
+OPENAI_TTS_MODEL               gpt-4o-mini-tts                                                                         
+OPENAI_TTS_VOICE               alloy                                                                                   
+OS                             Windows_NT                                                                              
+Path                           C:\JarvisBridge\.venv\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem...
+PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL                              
+PROCESSOR_ARCHITECTURE         AMD64                                                                                   
+PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 165 Stepping 2, GenuineIntel                                     
+PROCESSOR_LEVEL                6                                                                                       
+PROCESSOR_REVISION             a502                                                                                    
+ProgramData                    C:\ProgramData                                                                          
+ProgramFiles                   C:\Program Files                                                                        
+ProgramFiles(x86)              C:\Program Files (x86)                                                                  
+ProgramW6432                   C:\Program Files                                                                        
+PROMPT                         $P$G                                                                                    
+PSExecutionPolicyPreference    Bypass                                                                                  
+PSModulePath                   C:\Users\anybu\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsP...
+PUBLIC                         C:\Users\Public                                                                         
+RESPONSE_LANG                  ru                                                                                      
+SESSIONNAME                    Console                                                                                 
+SystemDrive                    C:                                                                                      
+SystemRoot                     C:\WINDOWS                                                                              
+TEMP                           C:\Users\anybu\AppData\Local\Temp                                                       
+TG_TOKEN                       8382266170:AAE6mnK40F8koM7YyVy8RSvNOHclKBWZRiw                                          
+TMP                            C:\Users\anybu\AppData\Local\Temp                                                       
+USERDOMAIN                     P15V                                                                                    
+USERDOMAIN_ROAMINGPROFILE      P15V                                                                                    
+USERNAME                       Admin                                                                                   
+USERPROFILE                    C:\Users\anybu                                                                          
+VIRTUAL_ENV                    C:\JarvisBridge\.venv                                                                   
+VIRTUAL_ENV_PROMPT             .venv                                                                                   
+WAKE_PHRASES                   привет джарвис;джарвис привет;привет jarvis;jarvis привет                               
+windir                         C:\WINDOWS                                                                              
+ZES_ENABLE_SYSMAN              1                                                                                       
+
+

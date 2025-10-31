@@ -1,0 +1,27 @@
+=== JarvisBridge Core — проверка структуры (A2.1) ===
+
+✅ Основные файлы на месте:
+- agent.py
+- recorder.py
+- stt_openai.py
+- tts_openai.py
+- os_bridge.py
+- tools.py
+- bridge_config.json
+- jarvis_hotword.py
+- jarvis_main_voice_bridge_v3.py
+
+✅ Основные CMD (запуск):
+- run_jarvis_hotword.cmd
+- run_jarvis_voice_bridge.cmd
+- run_voice_bridge_v3.cmd
+- run_bridge_test.cmd
+
+✅ Вспомогательные:
+- .env, activate.cmd, requirements.txt
+
+✅ Папки:
+- logs, temp, tests, scripts, router, tools, config, src
+- z_archive_20251021 (архив старых файлов)
+
+Все пути и файлы соответствуют ядру. Конфликтов и дубликатов нет.

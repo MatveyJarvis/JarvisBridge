@@ -1,0 +1,10 @@
+﻿{
+  "allowed_paths": [
+    "C:\\JarvisBridge\\",
+    "C:\\JarvisBridge\\logs\\",
+    "C:\\JarvisBridge\\temp\\"
+  ],
+  "allowed_extensions": [".py", ".ps1", ".cmd", ".txt", ".json", ".wav", ".mp3"],
+  "allow_network": false,
+  "allow_external_drives": false
+}

@@ -1,0 +1,58 @@
+{
+  "actions": [
+    {
+      "priority": 15,
+      "match": "contains_any",
+      "pattern": ["открой калькулятор", "запусти калькулятор", "калькулятор"],
+      "say": "Открываю калькулятор.",
+      "type": "process",
+      "command": ["calc.exe"]
+    },
+    {
+      "priority": 15,
+      "match": "contains_any",
+      "pattern": ["открой блокнот", "запусти блокнот", "notepad"],
+      "say": "Открываю блокнот.",
+      "type": "process",
+      "command": ["notepad.exe"]
+    },
+
+    {
+      "priority": 20,
+      "match": "regex",
+      "pattern": "^(?:открой|открыть)\\s+сайт\\s+(?P<url>[a-z0-9._~:/?#\\[\\]@!$&'()*+,;=%\\-]+)\\s*$",
+      "say": "Открываю сайт.",
+      "type": "url_from_group",
+      "group": "url",
+      "confirm": true
+    },
+    {
+      "priority": 20,
+      "match": "regex",
+      "pattern": "^(?:открой|открыть)\\s+папку\\s+(?P<path>.+)$",
+      "say": "Открываю папку.",
+      "type": "folder_from_group",
+      "group": "path",
+      "confirm": true
+    },
+
+    {
+      "priority": 25,
+      "match": "regex",
+      "pattern": "^(?:запусти|открой)\\s+калькулятор\\s+через\\s+(?P<sec>\\d{1,3})\\s*сек",
+      "say": "Запускаю калькулятор с задержкой.",
+      "type": "delay",
+      "seconds_group": "sec",
+      "then": { "type": "process", "command": ["calc.exe"] }
+    },
+    {
+      "priority": 25,
+      "match": "regex",
+      "pattern": "^(?:открой|открыть)\\s+сайт\\s+(?P<url>[a-z0-9._~:/?#\\[\\]@!$&'()*+,;=%\\-]+)\\s+через\\s+(?P<sec>\\d{1,3})\\s*сек",
+      "say": "Открываю сайт с задержкой.",
+      "type": "delay",
+      "seconds_group": "sec",
+      "then": { "type": "url_from_group", "group": "url" }
+    }
+  ]
+}

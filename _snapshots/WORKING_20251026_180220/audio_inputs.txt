@@ -1,0 +1,19 @@
+﻿=== INPUT DEVICES (mic candidates) ===
+[00] ╨Я╨╡╤А╨╡╨╜╨░╨╖╨╜╨░╤З╨╡╨╜╨╕╨╡ ╨╖╨▓╤Г╨║╨╛╨▓╤Л╤Е ╤Г╤Б╤В╤А. - Input  ch=2  rate=44100  
+[01] ╨Э╨░╨▒╨╛╤А ╨╝╨╕╨║╤А╨╛╤Д╨╛╨╜╨╛╨▓ (Realtek(R) Au  ch=4  rate=44100  
+[04] ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╣ ╨┤╤А╨░╨╣╨▓╨╡╤А ╨╖╨░╨┐╨╕╤Б╨╕ ╨╖╨▓╤Г╨║╨░  ch=2  rate=44100  
+[05] ╨Э╨░╨▒╨╛╤А ╨╝╨╕╨║╤А╨╛╤Д╨╛╨╜╨╛╨▓ (Realtek(R) Audio)  ch=4  rate=44100  
+[09] ╨Э╨░╨▒╨╛╤А ╨╝╨╕╨║╤А╨╛╤Д╨╛╨╜╨╛╨▓ (Realtek(R) Audio)  ch=2  rate=48000  
+[12] ╨Ф╨╕╨╜╨░╨╝╨╕╨║ ╨Я╨Ъ (Realtek HD Audio output with SST)  ch=2  rate=48000  
+[15] ╨Ф╨╕╨╜╨░╨╝╨╕╨║ ╨Я╨Ъ (Realtek HD Audio 2nd output with SST)  ch=2  rate=48000  
+[16] ╨Э╨░╨▒╨╛╤А ╨╝╨╕╨║╤А╨╛╤Д╨╛╨╜╨╛╨▓ 1 (Realtek HD Audio Mic input with SST)  ch=2  rate=48000  
+[17] ╨Э╨░╨▒╨╛╤А ╨╝╨╕╨║╤А╨╛╤Д╨╛╨╜╨╛╨▓ 2 (Realtek HD Audio Mic input with SST)  ch=4  rate=16000  
+[18] ╨Э╨░╨▒╨╛╤А ╨╝╨╕╨║╤А╨╛╤Д╨╛╨╜╨╛╨▓ 3 (Realtek HD Audio Mic input with SST)  ch=4  rate=16000  
+[19] Mic in at rear panel (black) (Mic in at rear panel (black))  ch=2  rate=44100  
+[21] Input (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+
+;(S24 Ultra ╨┐╨╛╨╗╤М╨╖╨╛╨▓╨░╤В╨╡╨╗╤П Kirill))  ch=1  rate=8000  
+[23] ╨Ь╨╕╨║╤А╨╛╤Д╨╛╨╜ ╨│╨░╤А╨╜╨╕╤В╤Г╤А╤Л (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+
+;(JBL BoomBox))  ch=1  rate=8000  
+[25] Input ()  ch=2  rate=44100  

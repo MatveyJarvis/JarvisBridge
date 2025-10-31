@@ -1,0 +1,36 @@
+# Jarvis v3 ? RU, wakewords & stop, stable ASCII
+Write-Host "[combo-single] Start..."
+Set-Location 'C:\JarvisBridge'
+
+# venv
+if (Test-Path '.\.venv\Scripts\Activate.ps1') {
+  & .\.venv\Scripts\Activate.ps1
+  Write-Host "[combo-single] venv activated."
+}
+
+# ??????? ??????? python-????????
+Stop-Process -Name python -Force -ErrorAction SilentlyContinue | Out-Null
+
+# --- ????? ---
+$env:INPUT_DEVICE_INDEX = "1"
+$env:INPUT_SAMPLE_RATE  = "16000"
+$env:INPUT_CHANNELS     = "1"
+
+# --- VAD / ???? ---
+$env:VAD_AGGR          = "2"
+$env:VAD_THR           = "0.25"
+$env:LANG              = "ru"
+$env:CMD_PREROLL_MS    = "700"
+$env:MUTE_AFTER_TTS_MS = "1800"
+
+# --- ????? ?????????/????? ---
+$env:WAKE_PHRASES = "?????? ???????;??????? ??????"
+$env:STOP_PHRASE  = "??????? ????"
+
+# --- ?????? MAIN (bg, ????????) ---
+Start-Process -WindowStyle Minimized -FilePath 'python' -ArgumentList '-X utf8 -u .\jarvis_main_voice_bridge_v3.py'
+Write-Host "[combo-single] MAIN started (bg)."
+
+# --- ?????? HOTWORD (fg, ?????) ---
+Write-Host "[combo-single] HOTWORD starting (fg, visible)..."
+& python -X utf8 -u .\jarvis_hotword.py

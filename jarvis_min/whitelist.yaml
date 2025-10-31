@@ -1,0 +1,11 @@
+paths:
+  - "C:\\JarvisBridge\\jarvis_min"
+  - "C:\\Прайсы"
+  - "\\\\SERVER\\Share\\1C"
+extensions:
+  - .txt
+  - .csv
+  - .json
+  - .xlsx
+  - .log
+max_file_mb: 50

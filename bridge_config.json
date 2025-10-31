@@ -1,0 +1,37 @@
+{
+  "open_chrome": {
+    "phrases": ["открой хром", "запусти хром", "браузер", "открой chrome"],
+    "run": ["cmd", "/c", "start", "chrome"],
+    "env_expand": true,
+    "shell": false,
+    "confirm_say": "Открываю браузер."
+  },
+  "open_downloads": {
+    "phrases": ["открой загрузки", "папка загрузки", "загрузки"],
+    "run": ["explorer.exe", "%USERPROFILE%\\Downloads"],
+    "env_expand": true,
+    "shell": false,
+    "confirm_say": "Открываю папку Загрузки."
+  },
+  "open_settings": {
+    "phrases": ["настройки windows", "открой настройки", "открой параметры"],
+    "run": ["cmd", "/c", "start", "ms-settings:"],
+    "env_expand": true,
+    "shell": false,
+    "confirm_say": "Открываю настройки Windows."
+  },
+  "lock_pc": {
+    "phrases": ["заблокируй компьютер", "заблокируй пк", "поставь блокировку"],
+    "run": ["rundll32.exe", "user32.dll,LockWorkStation"],
+    "env_expand": true,
+    "shell": false,
+    "confirm_say": "Готово, компьютер заблокирован."
+  },
+  "show_capabilities": {
+    "phrases": ["что ты умеешь", "покажи команды", "список команд"],
+    "run": ["cmd", "/c", "echo", "This is a placeholder. Real output handled в коде."],
+    "env_expand": true,
+    "shell": false,
+    "confirm_say": "Смотри список команд на экране."
+  }
+}

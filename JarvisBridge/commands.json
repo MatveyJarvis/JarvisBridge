@@ -1,0 +1,108 @@
+{
+  "wake_words": [
+    "джарвис",
+    "компьютер"
+  ],
+  "confidence_threshold": 0.7,
+  "commands": [
+    {
+      "id": "open_youtube",
+      "phrases": [
+        "открой ютуб",
+        "запусти ютуб",
+        "open youtube",
+        "открыть youtube"
+      ],
+      "action": "url",
+      "target": "https://youtube.com"
+    },
+    {
+      "id": "open_chatgpt",
+      "phrases": [
+        "открой чат gpt",
+        "открой чат гпт",
+        "open chatgpt",
+        "запусти чат gpt"
+      ],
+      "action": "url",
+      "target": "https://chat.openai.com/"
+    },
+    {
+      "id": "open_music",
+      "phrases": [
+        "включи музыку",
+        "открой музыку",
+        "open music"
+      ],
+      "action": "url",
+      "target": "https://music.youtube.com/"
+    },
+    {
+      "id": "open_word",
+      "phrases": [
+        "открой ворд",
+        "запусти ворд",
+        "open word"
+      ],
+      "action": "exe",
+      "target": "winword.exe"
+    },
+    {
+      "id": "open_excel",
+      "phrases": [
+        "открой эксель",
+        "запусти эксель",
+        "open excel"
+      ],
+      "action": "exe",
+      "target": "excel.exe"
+    },
+    {
+      "id": "open_notepad",
+      "phrases": [
+        "открой блокнот",
+        "запусти блокнот",
+        "open notepad"
+      ],
+      "action": "exe",
+      "target": "notepad.exe"
+    },
+    {
+      "id": "open_explorer",
+      "phrases": [
+        "открой проводник",
+        "open explorer"
+      ],
+      "action": "exe",
+      "target": "explorer.exe"
+    },
+    {
+      "id": "open_downloads",
+      "phrases": [
+        "открой загрузки",
+        "open downloads"
+      ],
+      "action": "folder",
+      "target": "%USERPROFILE%/Downloads"
+    },
+    {
+      "id": "open_documents",
+      "phrases": [
+        "открой документы",
+        "open documents"
+      ],
+      "action": "folder",
+      "target": "%USERPROFILE%/Documents"
+    },
+    {
+      "id": "open_telegram",
+      "phrases": [
+        "открой телеграм",
+        "запусти телеграм",
+        "open telegram"
+      ],
+      "action": "exe",
+      "target": "%USERPROFILE%/AppData/Roaming/Telegram Desktop/Telegram.exe"
+    }
+  ]
+}

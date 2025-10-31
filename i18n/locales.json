@@ -1,0 +1,28 @@
+{
+  "symbols": {
+    "USD": "$",
+    "EUR": "€",
+    "RUB": "₽",
+    "BYN": "Br",
+    "KZT": "₸",
+    "CNY": "¥",
+    "PLN": "zł",
+    "CHF": "Fr",
+    "TRY": "₺",
+    "JPY": "¥",
+    "GBP": "£",
+    "UAH": "₴",
+    "AED": "د.إ",
+    "HKD": "$",
+    "SGD": "$",
+    "AUD": "$",
+    "CAD": "$",
+    "NZD": "$",
+    "KGS": "сом",
+    "UZS": "сум"
+  },
+  "phrases": {
+    "on_date_ru": "на {DATE}",
+    "approx": "≈"
+  }
+}
