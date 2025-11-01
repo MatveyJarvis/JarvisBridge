@@ -16,12 +16,7 @@ def record_and_recognize():
         transcript = openai.Audio.transcriptions.create(model="whisper-1", file=f)
     return transcript.text.strip().lower()
 
-def speak(text):
-    print("[tts]", text)
-    speech_file = "C:\\JarvisBridge\\temp\\tts_out.mp3"
-    with openai.audio.speech.with_streaming_response.create(model="gpt-4o-mini-tts", voice="alloy", input=text) as r:
-        r.stream_to_file(speech_file)
-    playsound.playsound(speech_file)
+def speak(text):`r`n    print("[tts]", text)`r`n    import requests, base64`r`n    url = "https://api.openai.com/v1/audio/speech"`r`n    headers = {"Authorization": f"Bearer {os.getenv(\"OPENAI_API_KEY\")}", "Content-Type": "application/json"}`r`n    payload = {"model": "gpt-4o-mini-tts", "voice": "alloy", "input": text}`r`n    response = requests.post(url, headers=headers, json=payload)`r`n    speech_file = "C:\\JarvisBridge\\temp\\tts_out.mp3"`r`n    with open(speech_file, "wb") as f: f.write(response.content)`r`n    playsound.playsound(speech_file)
 
 def main():
     print("=== Jarvis Full (VAD=False) ===")
@@ -41,4 +36,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
 
